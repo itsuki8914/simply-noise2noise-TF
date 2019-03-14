@@ -60,7 +60,7 @@ def main():
     if not os.path.exists(SVIM_DIR):
         os.makedirs(SVIM_DIR)
 
-    img_size = 128
+    img_size = 256
     bs = 16
 
     dir = DATASET_DIR
