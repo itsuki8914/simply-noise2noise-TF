@@ -86,9 +86,9 @@ class BatchGenerator:
             img = img[int(0.5*(img.shape[0]-dmin)):int(0.5*(img.shape[0]+dmin)),int(0.5*(img.shape[1]-dmin)):int(0.5*(img.shape[1]+dmin)),:]
             img = cv2.resize(img,self.imgSize)
 
-            #img = self.add_noise(img,ocp)
+            img = self.add_noise(img,ocp)
             #img = self.add_mosaic(img,ocp)
-            img = self.add_impulse(img,ocp)
+            #img = self.add_impulse(img,ocp)
 
 
             x[i,:,:,:] = (img - 127.5) / 127.5 # normalize between -0.5 ~ +0.5 <- requirements from using tanh in the last processing in the Generator
