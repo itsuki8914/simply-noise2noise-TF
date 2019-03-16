@@ -91,6 +91,6 @@ class BatchGenerator:
             #img = self.add_impulse(img,ocp)
 
 
-            x[i,:,:,:] = (img - 127.5) / 127.5 # normalize between -0.5 ~ +0.5 <- requirements from using tanh in the last processing in the Generator
+            x[i,:,:,:] = (img - 127.5) / 127.5 
 
         return x
