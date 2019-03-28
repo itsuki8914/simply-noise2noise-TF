@@ -1,6 +1,7 @@
 # simply-noise2noise-TF
 noise2noise but also perform autoencoder or denoising-autoencoder
-noise2noise paper: https://arxiv.org/abs/1803.04189
+noise2noise original paper: https://arxiv.org/abs/1803.04189
+original implementation: https://github.com/NVlabs/noise2noise
 
 Usage: put the images in the folder named "data". They are used for training. 
        put the image in a folder named "val". They are used for validation.
