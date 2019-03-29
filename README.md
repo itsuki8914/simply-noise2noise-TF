@@ -5,7 +5,7 @@ noise2noise original paper: https://arxiv.org/abs/1803.04189
 
 original implementation: https://github.com/NVlabs/noise2noise
 
-##Usage: 
+## Usage
 put the images in the folder named "data". They are used for training. 
        
 put the image in a folder named "val". They are used for validation.
