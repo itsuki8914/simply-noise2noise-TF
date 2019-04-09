@@ -13,3 +13,25 @@ put the image in a folder named "val". They are used for validation.
 when you set folders, training runs "python main.py". 
 
 after training, test runs "python pred.py" It is executed on the images in the folder named "test". 
+
+
+like this
+```
+main.py
+pred.py
+data
+  ├ 000.jpg
+  ├ aaa.png
+  ...
+  └ zzz.jpg
+val
+  ├ 111.jpg
+  ├ bbb.png
+  ...
+  └ xxx.jpg
+test
+  ├ 222.jpg
+  ├ ccc.png
+  ...
+  └ yyy.jpg 
+```
