@@ -10,7 +10,7 @@ from model2 import *
 DATASET_DIR = "data"
 VAL_DIR ="val"
 SAVE_DIR = "model"
-OUT_DIR = "ouput"
+OUT_DIR = "output"
 
 def main(folder="test"):
     if not os.path.exists(SAVE_DIR):
