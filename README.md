@@ -39,5 +39,6 @@ test
 ## Result examples
 input
 <img src = 'ouput/5_xval.png' width = '200px'>
+
 output
 <img src = 'ouput/5_yval.png' width = '200px'>
