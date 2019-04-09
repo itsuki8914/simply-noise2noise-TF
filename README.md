@@ -1,5 +1,5 @@
 # simply-noise2noise-TF
-noise2noise but also perform autoencoder or denoising-autoencoder
+Implementation of noise2noise but also perform autoencoder or denoising-autoencoder
 
 noise2noise original paper: https://arxiv.org/abs/1803.04189
 
