@@ -35,3 +35,7 @@ test
   ...
   └ yyy.jpg 
 ```
+
+## Result examples
+<img src = './output4_xval.png>
+<img src = './output4_yval.png>
