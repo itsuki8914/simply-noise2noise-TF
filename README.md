@@ -37,5 +37,5 @@ test
 ```
 
 ## Result examples
-<img src = './output4_xval.png'>
-<img src = './output4_yval.png'>
+<img src = './output/4_xval.png'>
+<img src = './output/4_yval.png'>
