@@ -1,6 +1,6 @@
 import tensorflow as tf
 
-REGULARIZER_COF = 2e-4
+REGULARIZER_COF = 1e-6
 
 def _fc_variable( weight_shape,name="fc"):
     with tf.variable_scope(name):
